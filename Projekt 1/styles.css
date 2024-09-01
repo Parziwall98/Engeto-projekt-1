@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
 }
 :root {
   --navigation-color: #fff;
@@ -45,6 +45,7 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   width: 75%;
+  margin: auto;
 }
 
 nav li {
@@ -178,6 +179,7 @@ nav ul li a:hover {
   padding-bottom: 40px;
   width: 70%;
   text-align: center;
+  margin: auto;
 }
 .what-we-do-photo-wrapper {
   display: flex;
@@ -187,6 +189,7 @@ nav ul li a:hover {
   gap: 20px;
   width: 70%;
   padding-bottom: 50px;
+  margin: auto;
 }
 .what-we-do-photo-container {
   max-width: 80px;
@@ -384,6 +387,7 @@ button {
   justify-content: center;
   position: relative;
   text-align: center;
+  margin: auto;
 }
 .review-content {
   display: flex;
@@ -392,9 +396,11 @@ button {
   padding-top: 50px;
   gap: 50px;
   width: 70%;
+  margin: auto;
 }
 .review-1 {
   width: 33%;
+  margin: auto;
 }
 .review-1-text {
   padding-top: 20px;
@@ -407,6 +413,7 @@ button {
   height: 70px;
   width: 70px;
   border-radius: 50%;
+  margin: auto;
 }
 .review-1-name {
   font-weight: bold;
@@ -414,6 +421,7 @@ button {
 }
 .review-2 {
   width: 33%;
+  margin: auto;
 }
 .review-2-text {
   padding-top: 20px;
@@ -426,6 +434,7 @@ button {
   height: 70px;
   width: 70px;
   border-radius: 50%;
+  margin: auto;
 }
 .review-2-name {
   font-weight: bold;
